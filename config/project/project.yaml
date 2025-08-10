@@ -1,0 +1,22 @@
+dateModified: 1754835449
+email:
+  fromEmail: annemarie@amparsons.co.uk
+  fromName: 'Craft Prototype'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0006fbda-fb18-4670-901a-8166855d61e4: 'Craft Prototype' # Craft Prototype
+    c19b53a4-3e30-414f-914a-86fac6687edb: 'Craft Prototype' # Craft Prototype
+system:
+  edition: solo
+  live: true
+  name: 'Craft Prototype'
+  schemaVersion: 5.8.0.3
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

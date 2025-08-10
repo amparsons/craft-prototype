@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: 'Craft Prototype'
+primary: true
+siteGroup: c19b53a4-3e30-414f-914a-86fac6687edb # Craft Prototype
+sortOrder: 1

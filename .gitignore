@@ -1,4 +1,32 @@
-# Craft 2 Storage (https://craftcms.com/support/craft-storage-gitignore)
-# not necessary for Craft 3 (https://github.com/craftcms/craft/issues/26)
-/craft/storage/*
-!/craft/storage/rebrand
+# Environment files
+.env
+.env.*.local
+
+# IDE & OS files
+.idea/
+.DS_Store
+
+# Vendor (Composer dependencies)
+vendor/
+
+# Node (if you’re using frontend tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Craft CMS-specific
+storage/*
+!/storage/.gitkeep
+cpresources/*
+!/cpresources/.gitkeep
+
+# DDEV runtime artifacts
+.ddev/db_snapshots/
+.ddev/.importdb
+.ddev/.downloads
+
+# Build output (if any)
+public/build/
+public/cpresources/
