@@ -24,4 +24,8 @@ use craft\helpers\App;
 
 return [
     'id' => App::env('CRAFT_APP_ID') ?: 'CraftCMS',
+    'modules' => [
+        'vite-module' => \modules\ViteModule::class,
+    ],
+    'bootstrap' => ['vite-module'],
 ];

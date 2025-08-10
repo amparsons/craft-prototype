@@ -1,0 +1,16 @@
+{
+  "src/js/index.ts": {
+    "file": "js/main.C0HdyVJB.js",
+    "name": "main",
+    "src": "src/js/index.ts",
+    "isEntry": true
+  },
+  "src/sass/index.scss": {
+    "file": "css/style.CRv7IIkJ.css",
+    "src": "src/sass/index.scss",
+    "isEntry": true,
+    "names": [
+      "style.css"
+    ]
+  }
+}
